@@ -1,0 +1,14 @@
+{% comment %}
+Klasse bei Figure: "is-size-6" bestimmt die Schriftgröße der Unterschrift
+{% endcomment %}
+<figure class="image is-size-6">
+	  {% if url %} <a class="no-icon" target="_blank" rel="noopener" href="{{ url }}"> {% endif %}
+			<img class="doc-image" src="/images/{{ file }}"
+											 alt="{% if alt %} {{ alt }}{% else %}nothing{% endif %}"
+			 {% if max_width %} style="max-width: {{ max_width }}px" {% endif %}/>
+		{% if url %}</a>{% endif %}
+	{% if caption %}
+		<figcaption> {{ caption }} </figcaption>
+		{% endif %}
+</figure>
+

@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>500 | Hieronymus</title>
+
+<meta name="description" content="Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+
+<link rel="stylesheet" href="/_bridgetown/static/index.GUSZ4CR7.css" />
+<script src="/_bridgetown/static/index.NJPNCXFI.js" defer></script>
+<script type="module">let lastmod = 0
+function startReloadConnection() {
+  const evtSource = new EventSource("/_bridgetown/live_reload")
+  evtSource.onmessage = event => {
+    if (event.data == "reloaded!") {
+      location.reload()
+    } else {
+      const newmod = Number(event.data)
+      if (lastmod > 0 && newmod > 0 && lastmod < newmod) {
+        location.reload()
+      } else {
+        lastmod = newmod
+      }
+    }
+  }
+  evtSource.onerror = event => {
+    if (evtSource.readyState === 2) {
+      // reconnect with new object
+      evtSource.close()
+      console.warn("Live reload: attempting to reconnect in 3 seconds...")
+
+      setTimeout(() => startReloadConnection(), 3000)
+    }
+  }
+}
+setTimeout(() => {
+  startReloadConnection()
+}, 500)
+</script>
+
+  </head>
+  <body class="default ">
+    <nav class="navbar is-dark">
+  <div class="navbar-brand">
+    
+    <a class="navbar-item" href="/">
+      Hieronymus
+    </a>
+  
+    <div class="navbar-burger burger" data-target="top-navbar" onclick="this.classList.toggle('is-active');document.querySelector('#top-navbar').classList.toggle('is-active')">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="top-navbar" class="navbar-menu">
+    <div class="navbar-start">
+      
+    <a class="navbar-item" href="/">Home</a>
+    <a class="navbar-item" href="/posts">Articles</a>
+    <a class="navbar-item" href="/about">About</a>
+    <div class="navbar-item has-dropdown is-hoverable">
+      <a class="navbar-link" href="#">
+        Topics
+      </a>
+      <div class="navbar-dropdown is-boxed">
+        <a class="navbar-item" href="https://bulma.io/documentation/overview/start/">
+          Overview
+        </a>
+        <a class="navbar-item" href="https://bulma.io/documentation/overview/modifiers/">
+          Modifiers
+        </a>
+        <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/">
+          Columns
+        </a>
+        <a class="navbar-item" href="https://bulma.io/documentation/layout/container/">
+          Layout
+        </a>
+        <a class="navbar-item" href="https://bulma.io/documentation/form/general/">
+          Form
+        </a>
+        <hr class="navbar-divider">
+        <a class="navbar-item" href="https://bulma.io/documentation/elements/box/">
+          Elements
+        </a>
+        <a class="navbar-item" href="https://bulma.io/documentation/components/breadcrumb/">
+          Components
+        </a>
+      </div>
+    </div>
+  
+    </div>
+
+    <div class="navbar-end">
+      
+    <div class="navbar-item search-item">
+      
+<bridgetown-search-form>
+  <input slot="input" type="search" class="input" placeholder="Search" />
+  <bridgetown-search-results theme=""></bridgetown-search-results>
+</bridgetown-search-form>
+
+    </div>
+    <a class="navbar-item is-hidden-desktop-only" href="https://twitter.com/HieronM" target="_blank">
+      <span class="icon"><i class="fa fa-twitter is-size-6"></i></span>
+      <span class="is-hidden-tablet">Twitter</span>
+    </a>
+        
+    </div>
+  </div>
+</nav>
+
+
+    <main>
+      <h1>500</h1>
+
+<h2>Internal Server Error :(</h2>
+
+<p>The requested page could not be delivered.</p>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-5">
+        <div class="logo">
+          Hieronymus
+        </div>
+
+        <h4>
+          This site is totally awesome
+        </h4>
+
+        <div class="mt-3">
+          Follow on Twitter: <strong><a href="https://twitter.com/HieronM">@HieronM</strong></a>
+        </div>
+
+        <div class="mt-6 is-size-7">
+          Website content licensed <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>
+        </div>
+
+      </div>
+      <div class="column is-4">
+        <h4>
+          Other <strong>Resources</strong>
+        </h4>
+
+        <div class="mt-5">
+          <a href="https://wikipedia.org">Wikipedia</a><br/>
+          <a href="https://archive.org/web/">Wayback Machine</a>
+        </div>
+      </div>
+      <div class="column is-3">
+        <h4>
+          <strong>Share</strong> on Social Media
+        </h4>
+
+        <div class="mt-5">
+          <a href="https://twitter.com/intent/tweet?url=http://localhost:4000&via=HieronM&text=Check%20out%20this%20awesome%20new%20site%20built%20with%20Bridgetown%20and%20Ruby%21&hashtags=SpinUpBridgetown%2CJamstack" class="button is-info">
+            <span class="icon"> <i class="fa fa-twitter is-size-5"></i> </span>
+            <span class="has-text-weight-bold">Tweet</span>
+          </a>
+        </div>
+
+        <div class="mt-6">
+          <a href="/feed.xml" class="button is-danger is-small">
+            <span class="icon"> <i class="fa fa-rss"></i> </span>
+            <span class="has-text-weight-bold">News Feed</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
